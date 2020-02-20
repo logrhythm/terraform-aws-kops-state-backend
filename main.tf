@@ -29,7 +29,7 @@ locals {
 
 # Kops domain (e.g. `kops.domain.com`)
 module "domain" {
-  source           = "git::https://github.com/cloudposse/terraform-aws-route53-cluster-zone.git?ref=tags/0.3.1"
+  source           = "git::https://github.com/cloudposse/terraform-aws-route53-cluster-zone.git?ref=tags/0.4.0"
   namespace        = var.namespace
   name             = var.cluster_name
   stage            = var.stage
